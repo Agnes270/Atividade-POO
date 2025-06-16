@@ -46,21 +46,16 @@ public class Personagem : MonoBehaviour
         return this.saude;
     }
     
-    public void AtribuirAtaque(float ataque)
+    public void Atribuir_Ataque(int ataque)
     {
         this.ataque = ataque;
     }
-
-    public float Velocidade()
+    
+    public float Ataque()
     {
         return this.ataque;
     }
-   
     
-
-
-   
-
 
 
     void Start()
